@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Lixxx</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ 
+  <div class="marquee marquee-top" aria-hidden="true"><div id="marquee-top"></div></div>
+
+  <main>
+
+    
+    <header class="site-header">
+      <h1 class="logo shimmer">AM<b>PRESET</h1>
+      <p class="tagline">Cari preset Alight Motion dari link TikTok.</p>
+      <a class="btn btn-channel"
+         href="https://whatsapp.com/channel/0029VbDWBmtA89MamPba8q3f"
+         target="_blank" rel="noopener noreferrer">channel WhatsApp</a>
+    </header>
+
+    
+    <section class="box box-blue search">
+      <h2>Link TikTok</h2>
+      <div class="search-bar">
+        <input id="url-input" type="url" inputmode="url"
+               placeholder="https://vt.tiktok.com/..." aria-label="Link TikTok">
+        <button class="btn" id="btn-paste" type="button">Paste</button>
+        <button class="btn btn-dark" id="btn-search" type="button">Cari</button>
+        <button class="btn" id="btn-reset" type="button">Reset</button>
+      </div>
+    </section>
+
+   
+    <div id="result" aria-live="polite">
+      <div class="box">
+        <h2>Belum ada link</h2>
+        <p>Paste link video TikTok di atas, lalu klik Cari.</p>
+      </div>
+    </div>
+
+    
+    <div class="marquee-wrap" aria-hidden="true">
+      <div class="marquee marquee-mid"><div id="marquee-mid"></div></div>
+    </div>
+
+   
+    <h2 class="section-title shimmer">Cara <span>pakai</span></h2>
+    <div class="grid grid-3">
+      <div class="box step">
+        <span class="step-num">1</span>
+        <h3>Salin link</h3>
+        <p>Di TikTok, klik share terus copy link videonya.</p>
+      </div>
+      <div class="box step">
+        <span class="step-num">2</span>
+        <h3>Paste</h3>
+        <p>Taruh di kolom atas, klik Cari.</p>
+      </div>
+      <div class="box step">
+        <span class="step-num">3</span>
+        <h3>Buka hasil</h3>
+        <p>Klik Buka di link yang muncul, bisa link share atau file XML.</p>
+      </div>
+    </div>
+
+ 
+    <h2 class="section-title shimmer">Info</h2>
+    <div class="grid grid-4 info">
+      <div class="box">
+        <h3>Sumber</h3>
+        <p>Komentar di video TikTok yang kamu masukin.</p>
+      </div>
+      <div class="box box-blue">
+        <h3>Hasil</h3>
+        <p>Link share Alight Motion dan file XML kalau ada.</p>
+      </div>
+      <div class="box box-blue">
+        <h3>Video</h3>
+        <p>Video ikut diputar, jadi bisa dicek itu preset yang bener.</p>
+      </div>
+      <div class="box">
+        <h3>Biaya</h3>
+        <p>Gratis dan nggak perlu login.</p>
+        <svg class="star" viewBox="0 0 100 100" aria-hidden="true">
+          <path d="M50 4l13 29 31 3-23 21 7 31-28-16-28 16 7-31L6 36l31-3z"
+                fill="#2563ff" stroke="#0d0d0d" stroke-width="5" stroke-linejoin="round"/>
+          <circle cx="40" cy="46" r="7" fill="#fff" stroke="#0d0d0d" stroke-width="3"/>
+          <circle cx="60" cy="46" r="7" fill="#fff" stroke="#0d0d0d" stroke-width="3"/>
+          <circle cx="42" cy="47" r="3" fill="#0d0d0d"/>
+          <circle cx="62" cy="47" r="3" fill="#0d0d0d"/>
+          <path d="M42 60q8 8 16 0" fill="none" stroke="#0d0d0d" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </div>
+    </div>
+
+  
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
