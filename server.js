@@ -29,6 +29,10 @@ app.get('/api/find', async (req, res) => {
       },
       timeout: 30000
     })
+    if (data && typeof data === 'object') {
+      delete data.author
+      delete data.creator
+    }
     res.json(data)
   } catch (e) {
     res.status(e.response?.status || 500).json({ error: e.response?.data || e.message })
