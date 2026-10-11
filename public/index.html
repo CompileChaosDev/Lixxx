@@ -3,41 +3,31 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Lixxx</title>
-
+  <title>PRESETIN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
- 
-  <div class="marquee marquee-top" aria-hidden="true"><div id="marquee-top"></div></div>
-
   <main>
-
-    
     <header class="site-header">
-      <h1 class="logo shimmer">AM<b>PRESET</h1>
+      <h1 class="logo shimmer">PRESET<b>IN</b></h1>
       <p class="tagline">Cari preset Alight Motion dari link TikTok.</p>
-      <a class="btn btn-channel"
-         href="https://whatsapp.com/channel/0029Vb8oXCKJENy6aGRhmV1z"
-         target="_blank" rel="noopener noreferrer">channel WhatsApp</a>
+      <a class="btn btn-channel" href="https://whatsapp.com/channel/0029Vb8oXCKJENy6aGRhmV1z" target="_blank" rel="noopener noreferrer">channel WhatsApp</a>
     </header>
 
-    
     <section class="box box-blue search">
       <h2>Link TikTok</h2>
-      <div class="search-bar">
-        <input id="url-input" type="url" inputmode="url"
-               placeholder="https://vt.tiktok.com/..." aria-label="Link TikTok">
+      <div class="bar">
+        <input id="url-input" type="url" inputmode="url" placeholder="https://vt.tiktok.com/..." aria-label="Link TikTok">
         <button class="btn" id="btn-paste" type="button">Paste</button>
         <button class="btn btn-dark" id="btn-search" type="button">Cari</button>
         <button class="btn" id="btn-reset" type="button">Reset</button>
       </div>
+      <p class="hint">Yang dicari link preset di komentar video itu.</p>
     </section>
 
-   
     <div id="result" aria-live="polite">
       <div class="box">
         <h2>Belum ada link</h2>
@@ -45,12 +35,13 @@
       </div>
     </div>
 
-    
     <div class="marquee-wrap" aria-hidden="true">
-      <div class="marquee marquee-mid"><div id="marquee-mid"></div></div>
+      <div class="marquee marquee-mid">
+        <div class="marquee-group"><span>Import</span><span class="sep">■</span><span>Paste</span><span class="sep">■</span><span>Cari</span><span class="sep">■</span></div>
+        <div class="marquee-group"><span>Import</span><span class="sep">■</span><span>Paste</span><span class="sep">■</span><span>Cari</span><span class="sep">■</span></div>
+      </div>
     </div>
 
-   
     <h2 class="section-title shimmer">Cara <span>pakai</span></h2>
     <div class="grid grid-3">
       <div class="box step">
@@ -70,7 +61,6 @@
       </div>
     </div>
 
- 
     <h2 class="section-title shimmer">Info</h2>
     <div class="grid grid-4 info">
       <div class="box">
@@ -89,8 +79,7 @@
         <h3>Biaya</h3>
         <p>Gratis dan nggak perlu login.</p>
         <svg class="star" viewBox="0 0 100 100" aria-hidden="true">
-          <path d="M50 4l13 29 31 3-23 21 7 31-28-16-28 16 7-31L6 36l31-3z"
-                fill="#2563ff" stroke="#0d0d0d" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M50 4l13 29 31 3-23 21 7 31-28-16-28 16 7-31L6 36l31-3z" fill="#2563ff" stroke="#0d0d0d" stroke-width="5" stroke-linejoin="round"/>
           <circle cx="40" cy="46" r="7" fill="#fff" stroke="#0d0d0d" stroke-width="3"/>
           <circle cx="60" cy="46" r="7" fill="#fff" stroke="#0d0d0d" stroke-width="3"/>
           <circle cx="42" cy="47" r="3" fill="#0d0d0d"/>
@@ -100,10 +89,8 @@
       </div>
     </div>
 
-  
-
   </main>
 
   <script src="script.js"></script>
 </body>
-</html>
+  </html>
